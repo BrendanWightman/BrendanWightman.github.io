@@ -1,0 +1,39 @@
+body{
+    background-color: #3E505B;
+    margin: 0;
+}
+
+#topNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topNav li{
+    float:left;
+}
+
+#topNav #contact{
+    float: right;
+}
+
+#topNav #projects{
+    float: right;
+}
+
+#topNav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+}
+
+#topNav #home a{
+
+}
+
+a:hover:not(.active) {
+    background-color: #2e3c44;
+}
+
