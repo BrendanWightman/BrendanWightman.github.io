@@ -14,12 +14,11 @@ var itr = 0;
 
 function cursor(){
     clearInterval(id);
-    id = setInterval(cursorBlink, intervalLen);
+    id = setInterval(frame, intervalLen);
 
 }
 
-//Makes the cursor blink for 5 iterations
-function cursorBlink() {
+function frame() {
     if(itr === 5){
         clearInterval(id);
         intervalLen = 100;
