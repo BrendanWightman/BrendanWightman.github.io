@@ -1,39 +1,45 @@
-body{
-    background-color: #3E505B;
-    margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-#topNav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+header{
     overflow: hidden;
 }
-
-#topNav li{
-    float:left;
+.topNav ul{
+    list-style-type: none;
 }
 
-#topNav #contact{
-    float: right;
+.topNav li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
 }
 
-#topNav #projects{
-    float: right;
-}
-
-#topNav li a{
-    display: block;
+.topNav li a{
+    color: black;
     text-decoration: none;
-    padding: 10px 10px;
-    color: white;
+}
+.topNav #projects, #contact{
+    float: right;
 }
 
-#topNav #home a{
-
+.about{
+    margin: 100px 0px 0px 50px;
 }
 
-a:hover:not(.active) {
-    background-color: #2e3c44;
+.aboutHome{
+    margin: 0px 100px 0px 100px;
 }
 
+#imgMe{
+    float: right;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
