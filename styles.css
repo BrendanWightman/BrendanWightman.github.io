@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,6 +6,26 @@
 
 body{
     font-family: Helvetica, sans-serif;
+
+}
+
+.backgroundStuff{
+    margin: 0px 0px 0px 100px;
+    width: 100px;
+    height: 100vh;
+    transform: skew(35deg);
+	background: #c45e0b;
+    position: absolute;
+    z-index: -998;
+}
+
+.backgroundStuff2{
+    margin: 0px 0px 0px 100px;
+    width: 60px;
+    height: 100vh;
+	background: #0b71c4;
+    position: absolute;
+    z-index: -999;
 }
 
 header{
@@ -30,11 +50,16 @@ header{
 }
 
 .about{
-    margin: 100px 0px 0px 50px;
+    margin: 100px 0px 0px 20%;
 }
 
 .aboutHome{
-    margin: 0px 100px 0px 100px;
+    margin: 0px 25% 0px 25%;
+}
+
+.aboutPara{
+    font-size: 20px;
+    padding: 20px 0px 0px 5px;
 }
 
 #imgMe{
@@ -42,4 +67,48 @@ header{
     width: 230px;
     height: 230px;
     border-radius: 50%;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace, Helvetica;
+}
+
+body{
+    background-color:#1b1b1b;
+    color: white;
+}
+header{
+    background-color: #1f1f1f;
+    overflow: hidden;
+}
+h2{
+    font-size: 20px;
+}
+
+.topNav ul{
+    list-style-type: none;
+}
+
+.topNav li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+.topNav li a{
+    color: white;
+    text-decoration: none;
+}
+li.index{
+    float: left;
+}
+
+li.contact{
+    float: right;
+}
+li.projects{
+    float: right;
 }
