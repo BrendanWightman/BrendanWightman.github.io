@@ -114,10 +114,6 @@ li.projects{
     float: right;
 }
 
-.randScrlTxt{
-    display: none;
-}
-
 .dir{
     margin: 3% 20% 0% 20%;
 }
@@ -136,4 +132,10 @@ li.projects{
 .insideProlink{
     color: white;
     font-size: 18px;
+}
+.languages{
+    margin: 15%;
+    float: left;
+    display: none;
+    
 }

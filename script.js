@@ -106,6 +106,8 @@ function buildPage(){
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Social", 
         `<a href="Contact.html" class="insideProlink">Social</a>`);
 
+        // document.querySelector(".languages").style.display = "inline";
+
         clearInterval(id);
     }
 
