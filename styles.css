@@ -109,6 +109,32 @@ li.index{
 li.contact{
     float: right;
 }
+
 li.projects{
     float: right;
+}
+
+.randScrlTxt{
+    display: none;
+}
+
+.dir{
+    margin: 3% 20% 0% 20%;
+}
+
+.intro{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.fullIntro{
+    font-size: 18px;
+    width: 750px;
+    margin: 2% auto;
+}
+
+.insideProlink{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }

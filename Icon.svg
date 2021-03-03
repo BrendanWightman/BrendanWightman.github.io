@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 2021.2.16.1 <https://api.sketch.io/> -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" sketchjs:metadata="eyJuYW1lIjoiRHJhd2luZyIsImNsaXBQYXRoIjp7ImVuYWJsZWQiOnRydWUsInN0eWxlIjp7InN0cm9rZVN0eWxlIjoiYmxhY2siLCJsaW5lV2lkdGgiOjF9fSwiZGVzY3JpcHRpb24iOiJNYWRlIHdpdGggU2tldGNocGFkIiwibWV0YWRhdGEiOnt9LCJleHBvcnREUEkiOjcyLCJleHBvcnRGb3JtYXQiOiJwbmciLCJleHBvcnRRdWFsaXR5IjowLjk1LCJ1bml0cyI6InB4Iiwid2lkdGgiOjg0OCwiaGVpZ2h0Ijo5MjcsInBhZ2VzIjpbeyJ3aWR0aCI6ODQ4LCJoZWlnaHQiOjkyN31dLCJ1dWlkIjoiMGM5ZWI5NmUtNTU3OC00OGI2LTg5MzktMzAzMDkxMTc5YWE0In0=" width="848" height="927" viewBox="0 0 848 927" sketchjs:version="2021.2.16.1">
+<path sketchjs:tool="rectangle" style="fill: none; mix-blend-mode: source-over; vector-effect: non-scaling-stroke;" d="M0 0 L848 0 848 927 0 927 z"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 18;" points="0,0 123,120 4,227" transform="matrix(1,0,0,1,160,104)"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 18;" points="0,1 161.01,0" transform="matrix(1,0,0,1,317,270)"/>
+</svg>
