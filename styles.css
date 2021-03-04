@@ -115,27 +115,33 @@ li.projects{
 }
 
 .dir{
-    margin: 3% 20% 0% 20%;
+    margin: 3vh 20vw 0vh 30vw;
 }
 
 .intro{
-    width: 750px;
-    margin: 0 auto;
+
+    margin: 3vh 20vw 0vh 30vw;
 }
 
 .fullIntro{
     font-size: 18px;
-    width: 750px;
-    margin: 2% auto;
+    margin: 3vh 20vw 0vh 30vw;
 }
 
 .insideProlink{
     color: white;
     font-size: 18px;
 }
+
+.pContainer{
+    display:inline-block;
+    margin: 3vh 0vw 0vh 30vw;
+}
+
 .languages{
-    margin: 15%;
-    float: left;
     display: none;
-    
+}
+
+.relCourseWork{
+    display: none;  
 }

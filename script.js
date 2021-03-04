@@ -15,7 +15,7 @@ var txtVariab = ["C:\\Users\\BrendanWightman>_",
 var intro = "Hello, My Name is Brendan Wightman.";
 var fullIntro = `I am a Computer Science Student Living in Stow, OH.
                  I Build Solutions to Problems.
-                 Check Out my Projects, Resume, and Social.`;
+                 Check Out My Projects, Resume, and Social.`;
 
 var dirTxt = document.querySelector(".dir");
 var introTxt = document.querySelector(".intro");
@@ -106,7 +106,8 @@ function buildPage(){
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Social", 
         `<a href="Contact.html" class="insideProlink">Social</a>`);
 
-        // document.querySelector(".languages").style.display = "inline";
+        document.querySelector(".languages").style.display = "inline-block";
+        document.querySelector(".relCourseWork").style.display = "inline-block";
 
         clearInterval(id);
     }
