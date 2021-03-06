@@ -91,7 +91,7 @@ li.index{
     #dir{
         font-size: 14px;
     }
-    .mainCon, #codingLan, #relCourseWork, #experience, #technologies {
+    .manCon {
         margin: 5% 0;
     }
 }
