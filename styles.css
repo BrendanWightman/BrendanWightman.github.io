@@ -41,6 +41,11 @@ li.index{
     background-color: orange;
 }
 
+#dir{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .mainCon, #intro, #fullIntro{
     width: 90%;
     max-width: 800px;
@@ -54,10 +59,14 @@ li.index{
 
 #relCourseWork{
     display: none; 
-    margin: 0 5% 0 5%;
+    margin: 5%;
 }
 
 #experience{
+    display: none;
+    margin: 5%; 
+}
+#technologies{
     display: none;
     margin: 5%; 
 }
@@ -71,14 +80,17 @@ li.index{
 }
 
 @media (max-width: 700px){
-    #codingLan, #relCourseWork, #experience{
+    #codingLan, #relCourseWork, #experience, #technologies{
         width: 90%;
     }
 
 }
 
 @media (max-width: 590px){
-    .mainCon{
-        margin: 0;
+    #dir{
+        font-size: 14px;
+    }
+    .mainCon, #codingLan, #relCourseWork, #experience, #technologies {
+        margin: 5% 0;
     }
 }

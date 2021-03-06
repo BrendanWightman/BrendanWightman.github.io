@@ -109,6 +109,7 @@ function buildPage(){
         document.querySelector("#codingLan").style.display = "block";
         document.querySelector("#relCourseWork").style.display = "block";
         document.querySelector("#experience").style.display = "block";
+        document.querySelector("#technologies").style.display = "block";
 
         clearInterval(id);
     }
