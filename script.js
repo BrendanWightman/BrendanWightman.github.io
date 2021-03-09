@@ -26,6 +26,7 @@ var intervalLen = 150;
 var iter = 0;
 var itr = 0;
 
+//HTML onLoad() calls thins function to start animation
 function cursor(){
     dirTxt.innerHTML += txtVariab[0];
     clearInterval(id);
@@ -38,21 +39,25 @@ function frame() {
         idleCursor();
     }
 
+    //"PersonalWebsite.exe"
     if(itr < txtVariab[1].length){
         deleteCursor();
         dirTxt.innerHTML += txtVariab[1][itr];
     }
 
+    // <br>PersonalWebsite [Version 1.0] etc.. + C:\\Users\\BrendanWightman>_
     if(itr === txtVariab[1].length){
         deleteCursor();
         dirTxt.innerHTML += txtVariab[2];
         dirTxt.innerHTML += txtVariab[0];
     }
 
+    //Clear screen
     if(itr === txtVariab[1].length + 9){
         dirTxt.innerHTML = "";
     }
 
+    //Build the rest of the page, no animation really
     if(itr === txtVariab[1].length + 13){
         clearInterval(id);
         intervalLen = 15;
@@ -62,6 +67,7 @@ function frame() {
     ++itr;
 }
 
+//Flashes cursor on screen
 function idleCursor(){
     if(dirTxt.textContent.charAt(dirTxt.textContent.length - 1) !== '_'){
         dirTxt.innerHTML += '_';
@@ -83,18 +89,17 @@ function buildPage(){
             introTxt.innerHTML += "<br>";
         }
         introTxt.innerHTML += intro[iter];
-        ++iter;
     }else if(iter < intro.length + fullIntro.length){
         if(fullIntro[iter- intro.length - 1] === '.'){
             introFullTxt.innerHTML += "<br>";
         }
         introFullTxt.innerHTML += fullIntro[iter - intro.length];
-        ++iter;
-    }
+    } 
 
-    
 
      if(iter === intro.length + fullIntro.length){
+
+        //Link projects
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Projects", 
         `<a href="Projects.html" class="insideProlink">Projects</a>`);
 
@@ -102,7 +107,7 @@ function buildPage(){
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Resume", 
         `<a href="#" class="insideProlink">Resume</a>`);
 
-
+        //Link social
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Social", 
         `<a href="Contact.html" class="insideProlink">Social</a>`);
 
@@ -113,5 +118,6 @@ function buildPage(){
 
         clearInterval(id);
     }
+    ++iter;
 
 }
