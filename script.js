@@ -84,6 +84,7 @@ function deleteCursor(){
 
 //Can probably make this cleaner
 function buildPage(){
+    //Breaks strings into deffernt lines at the '.'
     if(iter < intro.length){
         if(intro[iter-1] === '.'){
             introTxt.innerHTML += "<br>";
