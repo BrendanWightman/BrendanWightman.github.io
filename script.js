@@ -26,7 +26,7 @@ var intervalLen = 150;
 var iter = 0;
 var itr = 0;
 
-//HTML onLoad() calls thins function to start animation
+//HTML onLoad() calls this function to start animation
 function cursor(){
     dirTxt.innerHTML += txtVariab[0];
     clearInterval(id);
@@ -106,7 +106,7 @@ function buildPage(){
 
         //Link resume pdf
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Resume", 
-        `<a href="#" class="insideProlink">Resume</a>`);
+        `<a href="Resume.pdf" class="insideProlink">Resume</a>`);
 
         //Link social
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Social", 
@@ -116,6 +116,7 @@ function buildPage(){
         document.querySelector("#relCourseWork").style.display = "block";
         document.querySelector("#experience").style.display = "block";
         document.querySelector("#technologies").style.display = "block";
+        document.querySelector("#pExp").style.display = "block";
 
         clearInterval(id);
     }

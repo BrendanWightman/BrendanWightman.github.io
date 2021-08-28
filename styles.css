@@ -37,6 +37,10 @@ li.index{
     text-decoration: none;
 }
 
+.resume{
+    background-color: orange;
+}
+
 .topNav li.contact a:hover, li.projects a:hover {
     background-color: orange;
 }
@@ -72,6 +76,11 @@ li.index{
     margin: 5%; 
 }
 
+#pExp{
+    display: none;
+    margin: 5%; 
+}
+
 #asciiSpc{
     white-space: pre;
 }
@@ -80,8 +89,47 @@ li.index{
     color: white;
 }
 
+.projectDiv{
+    width: 90%;
+    max-width: 800px;
+    margin: 2% auto;
+    border-style: solid;
+    border-color: #1f1f1f;
+    padding: 10px;
+}
+
+.projectDiv p{
+    margin: 10px 20px 10px 20px;
+}
+
+.innerProjectDiv{
+    border-style: solid;
+    border-color: #1f1f1f;
+    padding: 5px;
+}
+
+.innerProjectDiv a{
+    color: white; 
+}
+
+.gitHub{
+    width: 90%;
+    max-width: 800px;
+    margin: 2% auto;
+}
+
+.gitHub a{
+    color: white;
+}
+
+.gitHubIcon{
+    margin-top: 12px;
+    margin-left: 10px;
+    fill: white;
+}
+
 @media (max-width: 700px){
-    #codingLan, #relCourseWork, #experience, #technologies{
+    #codingLan, #relCourseWork, #experience, #technologies, #pExp{
         width: 90%;
     }
 
