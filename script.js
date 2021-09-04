@@ -112,6 +112,7 @@ function buildPage(){
         introFullTxt.innerHTML = introFullTxt.innerHTML.replace("Social", 
         `<a href="Contact.html" class="insideProlink">Social</a>`);
 
+        // Need to just loop through an array
         document.querySelector("#codingLan").style.display = "block";
         document.querySelector("#relCourseWork").style.display = "block";
         document.querySelector("#experience").style.display = "block";
