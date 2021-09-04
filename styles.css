@@ -38,7 +38,7 @@ li.index{
 }
 
 .resume{
-    background-color: orange;
+    background-color: rgb(255, 123, 0);
 }
 
 .topNav li.contact a:hover, li.projects a:hover {
@@ -59,26 +59,38 @@ li.index{
 #codingLan{
     margin: 7% 5% 5% 5%;
     display: none;
+    animation-duration: 4s;
 }
 
 #relCourseWork{
     display: none; 
     margin: 5%;
+    animation-duration: 5s;
 }
 
 #experience{
     display: none;
-    margin: 5%; 
+    margin: 5%;
+    animation-duration: 4.5s;
 }
 
 #technologies{
     display: none;
     margin: 5%; 
+    animation-duration: 5.5s;
 }
 
 #pExp{
     display: none;
     margin: 5%; 
+    animation-duration: 6s;
+}
+
+#codingLan, #relCourseWork, #experience,
+#technologies, #pExp{
+    position: relative;
+    animation-name: upSlide;
+    animation-iteration-count: initial;
 }
 
 #asciiSpc{
@@ -112,27 +124,22 @@ li.index{
     color: white; 
 }
 
-.gitHub{
-    width: 90%;
-    max-width: 800px;
-    margin: 2% auto;
-}
-
-.gitHub a{
+.gitHub a, .linkIn a, .insta a, .email a{
+    text-decoration: none;
     color: white;
 }
 
-.gitHubIcon{
-    margin-top: 12px;
-    margin-left: 10px;
-    fill: white;
+.socialLink{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media (max-width: 700px){
-    #codingLan, #relCourseWork, #experience, #technologies, #pExp{
+    #codingLan, #relCourseWork, 
+    #experience, #technologies, #pExp{
         width: 90%;
     }
-
 }
 
 @media (max-width: 590px){
@@ -158,4 +165,9 @@ li.index{
   
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+@keyframes upSlide {
+    from{top: 100vh;}
+    to{top: 0vh;}
 }
