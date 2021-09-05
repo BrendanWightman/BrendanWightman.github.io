@@ -162,6 +162,23 @@ li.index{
     }
 }
 
+@media (max-width: 500px){
+    *{
+        font-size: 13px;
+    }
+    #codingLan, #relCourseWork, 
+    #experience, #technologies, #pExp{
+        width: 100%;
+        margin: 10px 0 10px 0;
+        font-size: 11px;
+    }
+    #fullIntro, #intro{
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
