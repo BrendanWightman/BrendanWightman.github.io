@@ -8,7 +8,8 @@
 body{
     background-color:#1b1b1b;
     color: white;
-    font: 16px
+    font: 16px;
+    overflow-y: scroll;
 }
 
 header{
@@ -184,7 +185,7 @@ li.index{
 }
   
 ::-webkit-scrollbar-track {
-    background: #1b1b1b;
+    background: #2c2c2c;
 }
   
 ::-webkit-scrollbar-thumb {
