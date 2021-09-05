@@ -124,7 +124,7 @@ li.index{
     color: white; 
 }
 
-.linkIn a, .insta a, .email a{
+.linkIn a, .insta a, .email a, .gitHubContact a{
     text-decoration: none;
     color: white;
 }
