@@ -124,9 +124,20 @@ li.index{
     color: white; 
 }
 
-.gitHub a, .linkIn a, .insta a, .email a{
+.linkIn a, .insta a, .email a{
     text-decoration: none;
     color: white;
+}
+
+.gitHub a{
+    color: white;
+    text-decoration: underline;
+}
+
+.gitHub{
+    width: 90%;
+    max-width: 800px;
+    margin: 2% auto;
 }
 
 .socialLink{
